@@ -1,5 +1,5 @@
-#ifndef DYNAMIC_INT_ARRAY_H
-#define DYNAMIC_INT_ARRAY_H
+#ifndef ARRAY_I16_H
+#define ARRAY_I16_H
 
 #include <stdint.h>
 #include <stdlib.h>

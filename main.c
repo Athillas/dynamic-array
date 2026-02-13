@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <stdbool.h>
-#include "dynamic_int_array.h"
+
+#include "array_i16.h"
 #include "cli_functions.h"
 
 int main(void)
@@ -73,7 +74,7 @@ int main(void)
 				printf("\n");
 				break;
 			case EXIT_CODE:
-				free_array(&arr)
+				free_array(&arr);
 				return 0;
 		}
 		inp = '\0';

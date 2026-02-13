@@ -3,7 +3,7 @@
 #include <stddef.h>
 
 #include "cli_functions.h"
-#include "dynamic_int_array.h"
+#include "array_i16.h"
 
 void read_value(const char *message,
     const char *retry_message,

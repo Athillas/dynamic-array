@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stddef.h>
 #include <stdbool.h>
-#include "dynamic_int_array.h"
+#include "array_i16.h"
 
 /*
     Initializes array, sets length to 0,
